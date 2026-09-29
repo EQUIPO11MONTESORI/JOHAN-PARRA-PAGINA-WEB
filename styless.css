@@ -1,6 +1,53 @@
-body{
-  padding: 25px;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: (Oswald), system-ui;
 }
-.title {
-	color: #5C6AC4;
+body { 
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-heiht: 100vh;
+      min-height: 100dvh;
 }
+
+      .header {
+      background-color: blue;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      }
+      
+      .header-title{
+        font-size: 1.5rem;
+      }
+
+      .lenguages {
+        display:flex;
+        gap: .5ram;
+       
+      }
+
+      .lang-button {
+      background-color: transparent;
+      font-size: 1.25rem;
+      border: 0;
+      cursor: pointer;
+
+      }
+
+      .secttion { 
+       padding-inline: 2rem;
+       margin-top: 2rem;
+
+      }
+
+      .footer {
+      background-color: blue;
+      padding: 1rem 2rem;
+      margin-top: 2rem;
+
+      }
