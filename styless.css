@@ -4,50 +4,46 @@
   margin: 0; 
   padding: 0; 
   box-sizing: border-box;
-  font-family: (Oswald), system-ui;
+  font-family: "Oswald", system-ui;
 }
-body { 
+body{ 
       display: grid;
       grid-template-rows: auto 1fr auto;
-      min-heiht: 100vh;
+      min-height: 100vh;
       min-height: 100dvh;
 }
 
-      .header {
+.header{
       background-color: blue;
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 1rem 2rem;
-      }
+ }
       
-      .header-title{
-        font-size: 1.5rem;
-      }
+.header-title{
+      font-size: 1.5rem;
+}
 
-      .lenguages {
-        display:flex;
-        gap: .5ram;
-       
-      }
+.lenguages {
+      display:flex;
+      gap: 0.5ram;
+}
 
-      .lang-button {
+.lang-button{
       background-color: transparent;
       font-size: 1.25rem;
       border: 0;
       cursor: pointer;
+}
 
-      }
+.section{ 
+      padding-inline: 2rem;
+      margin-top: 2rem;
+}
 
-      .secttion { 
-       padding-inline: 2rem;
-       margin-top: 2rem;
-
-      }
-
-      .footer {
+.footer{
       background-color: blue;
       padding: 1rem 2rem;
       margin-top: 2rem;
-
-      }
+}
